@@ -14,6 +14,13 @@ Rahul kammili
 
 
 
+
+
+
+
+
+
+
 ![Azure Public Test Date](https://azurequickstartsservice.blob.core.windows.net/badges/101-1vm-2nics-2subnets-1vnet/PublicLastTestDate.svg)
 ![Azure Public Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/101-1vm-2nics-2subnets-1vnet/PublicDeployment.svg)
 
@@ -30,6 +37,10 @@ Rahul kammili
 This template creates a new VM with two NICs which connect to two different subnets within the same VNet.
 
 ## Tips
+
+
+
+NAidus
 
 1. If running under PowerShell you may update the **azuredeploy.parameters** file with the **allowedValues** for the subnet name of the Primary NIC and Secondary NIC for a nice dropdown list.
 2. Customize parameters in **azuredeploy.parameters** as you see appropriate, at the very least the **adminPassword**.
