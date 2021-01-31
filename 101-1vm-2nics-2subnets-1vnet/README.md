@@ -1,5 +1,19 @@
 # Multi-NIC Virtual Machine Creation using Two Subnets
 
+
+
+
+
+
+
+Rahul kammili
+
+
+
+
+
+
+
 ![Azure Public Test Date](https://azurequickstartsservice.blob.core.windows.net/badges/101-1vm-2nics-2subnets-1vnet/PublicLastTestDate.svg)
 ![Azure Public Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/101-1vm-2nics-2subnets-1vnet/PublicDeployment.svg)
 
