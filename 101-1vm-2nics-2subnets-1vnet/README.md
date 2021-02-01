@@ -39,7 +39,6 @@ This template creates a new VM with two NICs which connect to two different subn
 ## Tips
 
 
-FEEL the njoy
 
 NAidus
 
