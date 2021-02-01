@@ -1,0 +1,30 @@
+variables:
+  ARM_PASS: $(adminPass)
+
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '101-1vm-2nics-2subnets-1vnet'
+    Contents: '**'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'devopstoazure'
+    subscriptionId: '6397861a-9c1e-4fe5-9486-ed3d54eeca12'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'TesingRg'
+    location: 'North Europe'
+    templateLocation: 'Linked artifact'
+    csmFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.json'
+    csmParametersFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.parameters.json'
+    overrideParameters: '-adminUsername$(adminUser) -adminPassword$(ARM_PASS)'
+    deploymentMode: 'Incremental'
+
+
