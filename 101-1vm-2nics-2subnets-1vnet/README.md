@@ -46,3 +46,8 @@ NAidus
 2. Customize parameters in **azuredeploy.parameters** as you see appropriate, at the very least the **adminPassword**.
 
 Feel free to post questions and enjoy!
+
+
+
+
+FEEL the njoy
