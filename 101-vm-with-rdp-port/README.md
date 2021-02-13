@@ -6,6 +6,9 @@
 ![Azure US Gov Last Test Date](https://azurequickstartsservice.blob.core.windows.net/badges/101-vm-with-rdp-port/FairfaxLastTestDate.svg)
 ![Azure US Gov Last Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/101-vm-with-rdp-port/FairfaxDeployment.svg)
 
+
+asgdasd ahdashd ashdoashd asod asioldjalshd
+
 ![Best Practice Check](https://azurequickstartsservice.blob.core.windows.net/badges/101-vm-with-rdp-port/BestPracticeResult.svg)
 ![Cred Scan Check](https://azurequickstartsservice.blob.core.windows.net/badges/101-vm-with-rdp-port/CredScanResult.svg)
 
