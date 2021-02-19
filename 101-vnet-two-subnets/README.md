@@ -3,6 +3,10 @@
 ![Azure Public Test Date](https://azurequickstartsservice.blob.core.windows.net/badges/101-vnet-two-subnets/PublicLastTestDate.svg)
 ![Azure Public Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/101-vnet-two-subnets/PublicDeployment.svg)
 
+
+
+Any change happened
+
 ![Azure US Gov Last Test Date](https://azurequickstartsservice.blob.core.windows.net/badges/101-vnet-two-subnets/FairfaxLastTestDate.svg)
 ![Azure US Gov Last Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/101-vnet-two-subnets/FairfaxDeployment.svg)
 
